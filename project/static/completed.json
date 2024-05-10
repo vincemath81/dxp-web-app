@@ -1,0 +1,106 @@
+{
+  "stored": "2024-04-09T15:30:30.412Z",
+  "priority": "MEDIUM",
+  "active": true,
+  "completedForwardingQueue": [],
+  "failedForwardingLog": [],
+  "client": "65f35f4a70aa255b5518841f",
+  "lrs_id": "65f35f1270aa255b551883ee",
+  "completedQueues": [],
+  "activities": [
+    "https://xapi.percipio.com/xapi/video/04982a98-a407-494d-910b-dd8a0f3c2a4f"
+  ],
+  "hash": "a5bc7ba167e16c3a063fee584c652c24b5c75085",
+  "agents": ["https://usaf.percipio.com|1632326137"],
+  "statement": {
+    "authority": {
+      "objectType": "Agent",
+      "name": "New Client",
+      "mbox": "mailto:hello@learninglocker.net"
+    },
+    "stored": "2024-04-09T15:30:30.412Z",
+    "context": {
+      "registration": "277786d2-01b5-4cdd-adc9-d35340855a78",
+      "contextActivities": {
+        "parent": [
+          {
+            "objectType": "Activity",
+            "id": "https://xapi.percipio.com/xapi/course/78f246f4-839f-42d3-8430-7da24f001b78",
+            "definition": {
+              "name": {
+                "en": "Critical Thinking: Drawing Sound Conclusions"
+              },
+              "type": "http://adlnet.gov/expapi/activities/course"
+            }
+          }
+        ]
+      },
+      "extensions": {
+        "https://w3id.org/xapi/video/extensions/length": 90,
+        "https://w3id.org/xapi/video/extensions/completion-threshold": 0.5
+      }
+    },
+    "actor": {
+      "objectType": "Agent",
+      "account": {
+        "homePage": "https://usaf.percipio.com",
+        "name": "1632326137"
+      }
+    },
+    "timestamp": "2024-04-09T15:30:29.750Z",
+    "version": "1.0.0",
+    "id": "be8b8dde-b108-46c3-adfa-a019fc693884",
+    "result": {
+      "completion": true,
+      "extensions": {
+        "https://w3id.org/xapi/video/extensions/progress": 0.5
+      },
+      "duration": "PT32S"
+    },
+    "verb": {
+      "id": "http://adlnet.gov/expapi/verbs/completed",
+      "display": {
+        "en": "completed"
+      }
+    },
+    "object": {
+      "objectType": "Activity",
+      "id": "https://xapi.percipio.com/xapi/video/04982a98-a407-494d-910b-dd8a0f3c2a4f",
+      "definition": {
+        "name": {
+          "en": "Critical Thinking: Drawing Sound Conclusions"
+        },
+        "type": "https://w3id.org/xapi/video/activity-type/video"
+      }
+    }
+  },
+  "metadata": {
+    "https://learninglocker.net/result-duration": {
+      "seconds": 32
+    }
+  },
+  "hasGeneratedId": false,
+  "deadForwardingQueue": [],
+  "voided": false,
+  "verbs": ["http://adlnet.gov/expapi/verbs/completed"],
+  "processingQueues": [
+    "STATEMENT_QUERYBUILDERCACHE_QUEUE",
+    "STATEMENT_PERSON_QUEUE",
+    "STATEMENT_FORWARDING_QUEUE"
+  ],
+  "person": null,
+  "timestamp": "2024-04-09T15:30:29.750Z",
+  "relatedActivities": [
+    "https://xapi.percipio.com/xapi/video/04982a98-a407-494d-910b-dd8a0f3c2a4f",
+    "https://xapi.percipio.com/xapi/course/78f246f4-839f-42d3-8430-7da24f001b78"
+  ],
+  "relatedAgents": [
+    "https://usaf.percipio.com|1632326137",
+    "mailto:hello@learninglocker.net"
+  ],
+  "organisation": "61a51f5ecfa59a41932ccd0e",
+  "_id": "66155f16166b1f5b34a182e0",
+  "registrations": ["277786d2-01b5-4cdd-adc9-d35340855a78"],
+  "completedForwardingLog": [],
+  "pendingForwardingQueue": []
+}
